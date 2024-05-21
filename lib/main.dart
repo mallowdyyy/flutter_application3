@@ -63,7 +63,7 @@ class MenuScreen extends StatelessWidget {
                     },
                     icon: const Icon(Icons.camera, size: 30),
                     label: const Text('Live Camera',
-                        style: TextStyle(fontSize: 24)),
+                        style: TextStyle(fontSize: 24, color: Colors.white)),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color(0xFF534F7D),
                       minimumSize: const Size(300, 100),
@@ -82,7 +82,7 @@ class MenuScreen extends StatelessWidget {
                     icon: const Icon(Icons.filter, size: 30),
                     label: const Text(
                       'Colorblind Simulator',
-                      style: TextStyle(fontSize: 24),
+                      style: TextStyle(fontSize: 24, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color(0xFF534F7D),
@@ -96,8 +96,8 @@ class MenuScreen extends StatelessWidget {
                       // Navigation to History page
                     },
                     icon: const Icon(Icons.history, size: 30),
-                    label:
-                        const Text('History', style: TextStyle(fontSize: 24)),
+                    label: const Text('History',
+                        style: TextStyle(fontSize: 24, color: Colors.white)),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color(0xFF534F7D),
                       minimumSize: const Size(300, 100),
